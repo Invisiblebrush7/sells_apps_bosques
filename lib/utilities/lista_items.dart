@@ -29,9 +29,9 @@ class ListaObjetos extends StatelessWidget {
                      Text(listaObjetos[index])
                    ],
                  ),
-                Container(height: 15,),
+                Container(height: 25,),
                 Text("Descripción"),
-                Container(height: 15,),
+                Container(height: 25,),
                ],
              ),
            ),
