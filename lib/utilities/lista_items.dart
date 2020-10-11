@@ -10,7 +10,7 @@ class ListaObjetos extends StatelessWidget {
 
   final List<String> listaObjetos; */
 
-  final List<String> listaObjetos = ["Zapatos","Celulares","Frases de Obi Wan","Vasos","Comida","Consola","Cubiertos","Balones"];
+  final List<String> listaObjetos = ["Zapatos","Celulares","Vasos","Comida","Consola","Cubiertos","Balones"];
 
   @override
   Widget build(BuildContext context) {
@@ -30,7 +30,7 @@ class ListaObjetos extends StatelessWidget {
                    ],
                  ),
                 Container(height: 15,),
-                Text("Descripcion"),
+                Text("Descripción"),
                 Container(height: 15,),
                ],
              ),
